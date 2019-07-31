@@ -1,0 +1,6 @@
+framework module Pods_KidsThatCode {
+  umbrella header "Pods-KidsThatCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

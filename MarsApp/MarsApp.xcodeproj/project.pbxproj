@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42138C9E2179A25D00D558A1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42138C9D2179A25D00D558A1 /* SignUpViewController.swift */; };
+		421AA33A217912FF00E9A5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AA339217912FF00E9A5DE /* AppDelegate.swift */; };
+		421AA33C217912FF00E9A5DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AA33B217912FF00E9A5DE /* ViewController.swift */; };
+		421AA33F217912FF00E9A5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421AA33D217912FF00E9A5DE /* Main.storyboard */; };
+		421AA3412179130000E9A5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421AA3402179130000E9A5DE /* Assets.xcassets */; };
+		421AA3442179130000E9A5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421AA3422179130000E9A5DE /* LaunchScreen.storyboard */; };
+		421AA34F2179130000E9A5DE /* MarsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AA34E2179130000E9A5DE /* MarsAppTests.swift */; };
+		421AA35A2179130000E9A5DE /* MarsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AA3592179130000E9A5DE /* MarsAppUITests.swift */; };
+		421AA368217951EE00E9A5DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AA367217951EE00E9A5DE /* HomeViewController.swift */; };
+		421AA36A21795E4B00E9A5DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 421AA36921795E4B00E9A5DE /* GoogleService-Info.plist */; };
+		A1D013DDF6A6BDC7C52F9B39 /* Pods_MarsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E488A22C81CFE921D377FA9 /* Pods_MarsAppUITests.framework */; };
+		C1DC30C50FD168786565C75A /* Pods_MarsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463DFC23771786C7D974CD53 /* Pods_MarsAppTests.framework */; };
+		F85847B5547BDA70FAFFB7F9 /* Pods_MarsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5E0190429C65C2804F510C /* Pods_MarsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421AA34B2179130000E9A5DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421AA32E217912FF00E9A5DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421AA335217912FF00E9A5DE;
+			remoteInfo = MarsApp;
+		};
+		421AA3562179130000E9A5DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421AA32E217912FF00E9A5DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421AA335217912FF00E9A5DE;
+			remoteInfo = MarsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E5E0190429C65C2804F510C /* Pods_MarsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		340A06499F41F65C5B24CD27 /* Pods-MarsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsAppTests/Pods-MarsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E488A22C81CFE921D377FA9 /* Pods_MarsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42138C9D2179A25D00D558A1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		421AA336217912FF00E9A5DE /* MarsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AA339217912FF00E9A5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		421AA33B217912FF00E9A5DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		421AA33E217912FF00E9A5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		421AA3402179130000E9A5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421AA3432179130000E9A5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		421AA3452179130000E9A5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421AA34A2179130000E9A5DE /* MarsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AA34E2179130000E9A5DE /* MarsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsAppTests.swift; sourceTree = "<group>"; };
+		421AA3502179130000E9A5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421AA3552179130000E9A5DE /* MarsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AA3592179130000E9A5DE /* MarsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsAppUITests.swift; sourceTree = "<group>"; };
+		421AA35B2179130000E9A5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421AA367217951EE00E9A5DE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		421AA36921795E4B00E9A5DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43B2839BD2F062AEF7A204CD /* Pods-MarsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsApp/Pods-MarsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		463DFC23771786C7D974CD53 /* Pods_MarsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		802E901C2D80B94BA059A650 /* Pods-MarsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsAppUITests/Pods-MarsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC98EB352808C1A12095BE10 /* Pods-MarsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsApp/Pods-MarsApp.release.xcconfig"; sourceTree = "<group>"; };
+		D99AF278D726900AFF48D149 /* Pods-MarsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsAppUITests/Pods-MarsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0949BB0107D564156E6C762 /* Pods-MarsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsAppTests/Pods-MarsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421AA333217912FF00E9A5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85847B5547BDA70FAFFB7F9 /* Pods_MarsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AA3472179130000E9A5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DC30C50FD168786565C75A /* Pods_MarsAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AA3522179130000E9A5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D013DDF6A6BDC7C52F9B39 /* Pods_MarsAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421AA32D217912FF00E9A5DE = {
+			isa = PBXGroup;
+			children = (
+				421AA338217912FF00E9A5DE /* MarsApp */,
+				421AA34D2179130000E9A5DE /* MarsAppTests */,
+				421AA3582179130000E9A5DE /* MarsAppUITests */,
+				421AA337217912FF00E9A5DE /* Products */,
+				E255904D1193FE708E7EEACC /* Pods */,
+				DDFC8C75075769E50D7C4B03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		421AA337217912FF00E9A5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421AA336217912FF00E9A5DE /* MarsApp.app */,
+				421AA34A2179130000E9A5DE /* MarsAppTests.xctest */,
+				421AA3552179130000E9A5DE /* MarsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421AA338217912FF00E9A5DE /* MarsApp */ = {
+			isa = PBXGroup;
+			children = (
+				421AA36921795E4B00E9A5DE /* GoogleService-Info.plist */,
+				421AA339217912FF00E9A5DE /* AppDelegate.swift */,
+				421AA33B217912FF00E9A5DE /* ViewController.swift */,
+				421AA33D217912FF00E9A5DE /* Main.storyboard */,
+				421AA3402179130000E9A5DE /* Assets.xcassets */,
+				421AA3422179130000E9A5DE /* LaunchScreen.storyboard */,
+				421AA3452179130000E9A5DE /* Info.plist */,
+				421AA367217951EE00E9A5DE /* HomeViewController.swift */,
+				42138C9D2179A25D00D558A1 /* SignUpViewController.swift */,
+			);
+			path = MarsApp;
+			sourceTree = "<group>";
+		};
+		421AA34D2179130000E9A5DE /* MarsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				421AA34E2179130000E9A5DE /* MarsAppTests.swift */,
+				421AA3502179130000E9A5DE /* Info.plist */,
+			);
+			path = MarsAppTests;
+			sourceTree = "<group>";
+		};
+		421AA3582179130000E9A5DE /* MarsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				421AA3592179130000E9A5DE /* MarsAppUITests.swift */,
+				421AA35B2179130000E9A5DE /* Info.plist */,
+			);
+			path = MarsAppUITests;
+			sourceTree = "<group>";
+		};
+		DDFC8C75075769E50D7C4B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E0190429C65C2804F510C /* Pods_MarsApp.framework */,
+				463DFC23771786C7D974CD53 /* Pods_MarsAppTests.framework */,
+				3E488A22C81CFE921D377FA9 /* Pods_MarsAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E255904D1193FE708E7EEACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43B2839BD2F062AEF7A204CD /* Pods-MarsApp.debug.xcconfig */,
+				AC98EB352808C1A12095BE10 /* Pods-MarsApp.release.xcconfig */,
+				340A06499F41F65C5B24CD27 /* Pods-MarsAppTests.debug.xcconfig */,
+				E0949BB0107D564156E6C762 /* Pods-MarsAppTests.release.xcconfig */,
+				D99AF278D726900AFF48D149 /* Pods-MarsAppUITests.debug.xcconfig */,
+				802E901C2D80B94BA059A650 /* Pods-MarsAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421AA335217912FF00E9A5DE /* MarsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AA35E2179130000E9A5DE /* Build configuration list for PBXNativeTarget "MarsApp" */;
+			buildPhases = (
+				8A9DE5C803EBA7B4EFE6C47E /* [CP] Check Pods Manifest.lock */,
+				421AA332217912FF00E9A5DE /* Sources */,
+				421AA333217912FF00E9A5DE /* Frameworks */,
+				421AA334217912FF00E9A5DE /* Resources */,
+				48A2EC6FA3CE5540A99455E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsApp;
+			productName = MarsApp;
+			productReference = 421AA336217912FF00E9A5DE /* MarsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		421AA3492179130000E9A5DE /* MarsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AA3612179130000E9A5DE /* Build configuration list for PBXNativeTarget "MarsAppTests" */;
+			buildPhases = (
+				DFFFC7A4572823499B2D84EE /* [CP] Check Pods Manifest.lock */,
+				421AA3462179130000E9A5DE /* Sources */,
+				421AA3472179130000E9A5DE /* Frameworks */,
+				421AA3482179130000E9A5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421AA34C2179130000E9A5DE /* PBXTargetDependency */,
+			);
+			name = MarsAppTests;
+			productName = MarsAppTests;
+			productReference = 421AA34A2179130000E9A5DE /* MarsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		421AA3542179130000E9A5DE /* MarsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AA3642179130000E9A5DE /* Build configuration list for PBXNativeTarget "MarsAppUITests" */;
+			buildPhases = (
+				DECE647AB75168C1C6E175A2 /* [CP] Check Pods Manifest.lock */,
+				421AA3512179130000E9A5DE /* Sources */,
+				421AA3522179130000E9A5DE /* Frameworks */,
+				421AA3532179130000E9A5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421AA3572179130000E9A5DE /* PBXTargetDependency */,
+			);
+			name = MarsAppUITests;
+			productName = MarsAppUITests;
+			productReference = 421AA3552179130000E9A5DE /* MarsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421AA32E217912FF00E9A5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jesus Medina";
+				TargetAttributes = {
+					421AA335217912FF00E9A5DE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					421AA3492179130000E9A5DE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 421AA335217912FF00E9A5DE;
+					};
+					421AA3542179130000E9A5DE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 421AA335217912FF00E9A5DE;
+					};
+				};
+			};
+			buildConfigurationList = 421AA331217912FF00E9A5DE /* Build configuration list for PBXProject "MarsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421AA32D217912FF00E9A5DE;
+			productRefGroup = 421AA337217912FF00E9A5DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421AA335217912FF00E9A5DE /* MarsApp */,
+				421AA3492179130000E9A5DE /* MarsAppTests */,
+				421AA3542179130000E9A5DE /* MarsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421AA334217912FF00E9A5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AA3442179130000E9A5DE /* LaunchScreen.storyboard in Resources */,
+				421AA36A21795E4B00E9A5DE /* GoogleService-Info.plist in Resources */,
+				421AA3412179130000E9A5DE /* Assets.xcassets in Resources */,
+				421AA33F217912FF00E9A5DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AA3482179130000E9A5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AA3532179130000E9A5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48A2EC6FA3CE5540A99455E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarsApp/Pods-MarsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsApp/Pods-MarsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9DE5C803EBA7B4EFE6C47E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECE647AB75168C1C6E175A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFFFC7A4572823499B2D84EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421AA332217912FF00E9A5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AA33C217912FF00E9A5DE /* ViewController.swift in Sources */,
+				421AA33A217912FF00E9A5DE /* AppDelegate.swift in Sources */,
+				42138C9E2179A25D00D558A1 /* SignUpViewController.swift in Sources */,
+				421AA368217951EE00E9A5DE /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AA3462179130000E9A5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AA34F2179130000E9A5DE /* MarsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AA3512179130000E9A5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AA35A2179130000E9A5DE /* MarsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421AA34C2179130000E9A5DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421AA335217912FF00E9A5DE /* MarsApp */;
+			targetProxy = 421AA34B2179130000E9A5DE /* PBXContainerItemProxy */;
+		};
+		421AA3572179130000E9A5DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421AA335217912FF00E9A5DE /* MarsApp */;
+			targetProxy = 421AA3562179130000E9A5DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		421AA33D217912FF00E9A5DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421AA33E217912FF00E9A5DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		421AA3422179130000E9A5DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421AA3432179130000E9A5DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		421AA35C2179130000E9A5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		421AA35D2179130000E9A5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421AA35F2179130000E9A5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B2839BD2F062AEF7A204CD /* Pods-MarsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NL6GK8YKX;
+				INFOPLIST_FILE = MarsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesus-Medina.MarsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421AA3602179130000E9A5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC98EB352808C1A12095BE10 /* Pods-MarsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NL6GK8YKX;
+				INFOPLIST_FILE = MarsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesus-Medina.MarsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		421AA3622179130000E9A5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340A06499F41F65C5B24CD27 /* Pods-MarsAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NL6GK8YKX;
+				INFOPLIST_FILE = MarsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus-medina.MarsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsApp.app/MarsApp";
+			};
+			name = Debug;
+		};
+		421AA3632179130000E9A5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0949BB0107D564156E6C762 /* Pods-MarsAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NL6GK8YKX;
+				INFOPLIST_FILE = MarsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus-medina.MarsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsApp.app/MarsApp";
+			};
+			name = Release;
+		};
+		421AA3652179130000E9A5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99AF278D726900AFF48D149 /* Pods-MarsAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NL6GK8YKX;
+				INFOPLIST_FILE = MarsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus-medina.MarsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsApp;
+			};
+			name = Debug;
+		};
+		421AA3662179130000E9A5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802E901C2D80B94BA059A650 /* Pods-MarsAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NL6GK8YKX;
+				INFOPLIST_FILE = MarsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus-medina.MarsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421AA331217912FF00E9A5DE /* Build configuration list for PBXProject "MarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AA35C2179130000E9A5DE /* Debug */,
+				421AA35D2179130000E9A5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AA35E2179130000E9A5DE /* Build configuration list for PBXNativeTarget "MarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AA35F2179130000E9A5DE /* Debug */,
+				421AA3602179130000E9A5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AA3612179130000E9A5DE /* Build configuration list for PBXNativeTarget "MarsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AA3622179130000E9A5DE /* Debug */,
+				421AA3632179130000E9A5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AA3642179130000E9A5DE /* Build configuration list for PBXNativeTarget "MarsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AA3652179130000E9A5DE /* Debug */,
+				421AA3662179130000E9A5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421AA32E217912FF00E9A5DE /* Project object */;
+}

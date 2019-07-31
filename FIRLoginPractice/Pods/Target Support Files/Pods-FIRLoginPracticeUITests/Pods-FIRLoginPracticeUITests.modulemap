@@ -1,0 +1,6 @@
+framework module Pods_FIRLoginPracticeUITests {
+  umbrella header "Pods-FIRLoginPracticeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
